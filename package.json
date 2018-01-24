@@ -1,6 +1,6 @@
 {
   "name": "mailjet-fluent-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fluent utility over node-mailjet for handling mail validation and options builder ",
   "main": "index.js",
   "scripts": {
