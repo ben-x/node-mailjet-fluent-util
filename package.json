@@ -1,0 +1,30 @@
+{
+  "name": "mailjet-fluent-util",
+  "version": "1.0.1",
+  "description": "A fluent utility over node-mailjet for handling mail validation and options builder ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-x/node-mailjet-fluent-util.git"
+  },
+  "keywords": [
+    "mailjet",
+    "node",
+    "fluent",
+    "builder",
+    "validator"
+  ],
+  "author": "Benjamin ELoke <benjamineloke@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ben-x/node-mailjet-fluent-util/issues"
+  },
+  "homepage": "https://github.com/ben-x/node-mailjet-fluent-util#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-mailjet": "^3.2.1"
+  }
+}
