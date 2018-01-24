@@ -10,9 +10,7 @@ A fluent utility over node-mailjet for handling mail validation and options buil
 ##Usage
 ``` javascript
 
-var MailjetFluentUtil = require('mailjet-fluent-util');
-
-var MailjetFluentUtilObject = new MailjetFluentUtil().connect('api_key MJ_APIKEY_PUBLIC', 'api_secret MJ_APIKEY_PRIVATE');
+var MailjetFluentUtil = require('mailjet-fluent-util').connect('MJ_APIKEY_PUBLIC', 'MJ_APIKEY_PRIVATE');
 
 ```
 
@@ -24,7 +22,6 @@ require.extensions[".html"] = function (module, filename) {
     var fs = require('fs');
     module.exports = fs.readFileSync(filename, "utf8");
 };
-var MailjetFluentUtil = require('../index').connect('MJ_APIKEY_PUBLIC', 'MJ_APIKEY_PRIVATE');
 
 var Template = require("./template.html"); // A template (.html or .mjml) for the mail.
 
